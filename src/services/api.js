@@ -3,7 +3,8 @@
  * Handles all HTTP requests to the backend API
  */
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://barbara-shop-api.onrender.com/api';  // For production
+
 
 // Helper function to get auth token from localStorage
 const getAuthToken = () => {
